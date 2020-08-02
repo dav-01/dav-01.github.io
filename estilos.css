@@ -1,0 +1,51 @@
+
+#contenedor{
+	border: 1px solid #ffa500;
+	height: 600px;
+	width: 1000px;
+	margin: auto;
+}
+
+#encabezado{
+	border: 1px solid red;
+	height: 100px;
+	width: 1000px;
+}
+
+#navegacion{
+	border: 1px solid blue;
+	height: 50px;
+	width: 1000px;
+}
+
+#seccion{
+	border: 1px solid green;
+	height: 339px;
+	width: 600px;
+	float: left;
+
+}
+
+.articulo{
+	border: 1px solid red;
+	height: 112px;
+	width: 600px;
+}
+
+#aparte{
+	border: 1px solid green;
+	height: 339px;
+	width: 390px;
+	float: right;
+}
+
+#pie_pagina{
+	border: 1px solid black;
+	height: 100px;
+	width: 1000px;
+	clear: both;
+}
+
+h1{
+	margin: center;
+}
