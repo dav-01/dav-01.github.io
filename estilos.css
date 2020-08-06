@@ -6,68 +6,58 @@ h2{
 	margin: 5px;
 }
 
-#contenedor{
+main{
 	border: 5px solid green;
 	height: 600px;
 	margin: auto;
 	width: 1000px;
 }
 
-#encabezado{
+header{
 	border: 1px solid red;
 	height: 100px;
 	width: 1000px;
 }
 
-#navegacion{
+nav{
 	border: 1px solid blue;
 	height: 50px;
 	width: 1000px;
 }
 
-#seccion{
+section{
 	border: 1px solid green;
 	float: left;
 	height: 339px;
 	width: 600px;
 }
 
-.articulo{
+article{
 	border: 1px solid red;
 	height: 169px;
 	width: 600px;
 }
 
-#aparte{
+aside{
 	border: 1px solid blue;
 	float: right;
 	height: 339px;
 	width: 390px;
 }
 
-#pie_pagina{
+footer{
 	border: 1px solid black;
 	clear: both;
 	height: 100px;
 	width: 1000px;
 }
 
-.imagen1{
-	height: 100px;
-	width: 1000px;
+header img{
+	height: 100%;
+	width: 100%;	
 }
 
-.imagen2{
-	height: 50px;
-	width: 1000px;
-}
-
-.imagen3{
-	height: 169px;
-	width: 600px
-}
-
-.imagen4{
-	height: 339px;
-	width: 390px;
+.navega li{
+	list-style: none;
+	display: inline;
 }
