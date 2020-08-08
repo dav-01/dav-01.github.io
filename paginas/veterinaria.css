@@ -21,34 +21,31 @@ nav{
 	background-color: #1C4A48;
 	height: 50px;
 	width: 800px;
+	margin-bottom: 10px;
+	border-radius: 0px 0px 15px 15px;
 }
 
 section{
 	float: left;
-	height: 339px;
+	height: 323px;
 	width: 480px;
+	margin-right: 15px;
+	margin-bottom: 10px;
 }
 
-#articulo{
-	border: 1px solid red;
-	height: 160px;
+.articulo{
+	height: 155px;
 	width: 480px;
-	background: #FBF5BA;
+	margin-bottom: 15px;
+	background-color: #FBF5BA;
+	border-radius: 15px;
 }
-
-#articulo1{
-	border: 1px solid red;
-	height: 160px;
-	width: 480px;
-	background: #FBF5BA;
-	clear: both;
-}
-
 
 aside{
 	float: right;
-	height: 339px;
-	width: 310px;
+	height: 326px;
+	width: 290px;
+	margin-bottom: 10px;	
 }
 
 footer{
@@ -57,6 +54,11 @@ footer{
 	clear: both;
 	height: 80px;
 	width: 800px;
+	border-radius: 0px 0px 15px 15px;
+}
+
+footer h5{
+	padding-top: 15px;
 }
 
 header img{
@@ -64,12 +66,7 @@ header img{
 	width: 800px;	
 }
 
-aside header{
-	width: 100%;
-	height: 30px;
-	color: white;
-	background-color: #0B2826;
-}
+
 .navega li{
 	list-style: none;
 	display: inline;
@@ -77,21 +74,53 @@ aside header{
 	white-space: 20px;
 }
 
+aside header{
+	width: 100%;
+	height: 30px;
+	color: #FFFFFF;
+	padding-top: 5px;
+	background-color: #0B2826;
+	border-radius: 15px 15px 0px 0px;
+	font-size: 22px;
+}
+
 aside{
 	background-color: #496E6D;
-}
-
-table{
-	margin: 20px;
-	color: #C6D0D0;
-}
-
-tr{
-	padding: 20px;
+	border-radius: 15px 15px 15px 15px;
 }
 
 p{
 	text-align: justify;
-	width: 310px;
+	height: 130px;
+	float: left;
 	margin-left: 10px;
+	display: inline;
+	width: 325px;
+}
+
+
+ul{
+	padding-top: 12px;
+}
+
+li{
+	padding-right: 90px;
+
+}
+
+.imagen1{
+	float: right;
+	margin-right: 20px;
+}
+
+td{
+	padding-top: 10px;
+	color: #FFFFFF;
+	font-size: 21px;
+}
+
+button{
+	padding-top: 5px;
+	margin-top: 15px;
+	border-radius: 10px;
 }
