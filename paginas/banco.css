@@ -3,15 +3,14 @@
 }
 
 #contenedor{
-	border: solid 1px red;
 	margin: auto;
-	height: 800px;
+	height: 780px;
 	width: 850px;
 	margin-top: 20px;
 }
 
 header{
-	height: 126px;
+	height: 120px;
 	width: 850px;
 }
 
@@ -19,22 +18,25 @@ nav{
 	background-color: #FFBD16;
 	height: 60px;
 	width: 850px;
+	margin-bottom: 15px;
+	border-radius: 0px 0px 20px 20px;
 }
 
+ul{
+	padding-top: 15px;
+}
 
 li{
 	display: inline;
 	padding-right: 77px;
-	padding-bottom: 10px
-	
 }
 
-aside{
-	border: solid 1px green;
-	height: 515px;
-	width: 283px;
-	float: left;
 
+aside{
+	height: 490px;
+	width: 283px;
+	margin-bottom: 15px;
+	float: left;
 }
 
 #menu{
@@ -42,24 +44,31 @@ aside{
 }
 
 section{
-	border: solid 1px blue;
-	height: 515px;
-	width: 560px;
+	height: 490px;
+	width: 545px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	background-color: #E9E7E8;
 	float: right;
 }
 
 footer{
-	border: solid 1px green;
 	background-color: #232323;
 	color: #716F70;
-	height: 95px;
+	border-radius: 0px 0px 20px 20px;
+	height: 80px;
 	width: 850px;
 	clear: both;
 }
 
-img{
+
+#encabezado{
 	height: 100%;
 	width: 100%;
+}
+
+p{
+	padding-top: 12px;
 }
 
 #contactos{
@@ -67,14 +76,78 @@ img{
 }
 
 .seccion{
+	float: left;
+	height: 235px;
+	width: 262px;
+}
+
+.seccion1{
 	float: right;
-	border: solid 1px blue;
-	width: 277px;
-	height: 256px;
+	height: 235px;
+	width: 262px;
+
+}
+
+.seccion2{
+	float: left;
+	height: 236px;
+	width: 262px;
+	margin-top: 15px;
+}
+
+.seccion3{
+	float: right;
+	height: 236px;
+	width: 262px;
+	margin-top: 15px;
 }
 
 .aparte{
-	border: solid 1px yellow;
-	height: 255px;
-	width: 283px;
+	background-color: #B2B2B2;
+	margin-bottom: 15px;
+	height: 230px;
+	width: 100%;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.aparte1{
+	background-color: #232323;
+	height: 241px;
+	width: 100%;
+	display: block;
+
+}
+
+.titulo{
+	background-color: #232323;
+	color: white;
+	padding-top: 10px;
+	width: 100%;
+	height: 30px;
+}
+
+.lista{
+	display: block;
+	color: white;
+}
+
+td{
+	padding-top: 18px;
+}
+
+button{
+	background-color: #FFBD16;
+	margin-top: 18px;
+}
+
+article img{
+	margin-top: 10px;
+	height: 110px;
+	width: 70px:;
+}
+
+.letra{
+	padding-top: 0px;
+	font-size: 12px;
+	text-align: justify;
 }
