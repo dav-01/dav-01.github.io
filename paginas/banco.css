@@ -22,11 +22,11 @@ nav{
 	border-radius: 0px 0px 20px 20px;
 }
 
-ul{
+#menu{
 	padding-top: 15px;
 }
 
-li{
+.navega{
 	display: inline;
 	padding-right: 77px;
 }
@@ -48,7 +48,6 @@ section{
 	width: 545px;
 	margin-left: 15px;
 	margin-bottom: 15px;
-	background-color: #E9E7E8;
 	float: right;
 }
 
@@ -76,27 +75,34 @@ p{
 }
 
 .seccion{
+	background-color: #E9E7E8;
 	float: left;
+	border-radius: 15px;
 	height: 235px;
 	width: 262px;
 }
 
 .seccion1{
+	background-color: #E9E7E8;
 	float: right;
+	border-radius: 15px;
 	height: 235px;
 	width: 262px;
-
 }
 
 .seccion2{
+	background-color: #E9E7E8;
 	float: left;
+	border-radius: 15px;
 	height: 236px;
 	width: 262px;
 	margin-top: 15px;
 }
 
 .seccion3{
+	background-color: #E9E7E8;
 	float: right;
+	border-radius: 15px;
 	height: 236px;
 	width: 262px;
 	margin-top: 15px;
@@ -115,11 +121,10 @@ p{
 	height: 241px;
 	width: 100%;
 	display: block;
-
 }
 
 .titulo{
-	background-color: #232323;
+	background-color: #141414;
 	color: white;
 	padding-top: 10px;
 	width: 100%;
@@ -127,12 +132,19 @@ p{
 }
 
 .lista{
-	display: block;
-	color: white;
+	color: #B1B1B1;
+	list-style: none;
+	margin-left: 16px;
 }
 
-td{
+.datos{
 	padding-top: 18px;
+}
+
+.textos{
+	display: block;
+	color: #B1B1B1;
+	margin-top: 3px;
 }
 
 button{
@@ -147,7 +159,10 @@ article img{
 }
 
 .letra{
-	padding-top: 0px;
+	padding: 0px 10px 10px 10px;
 	font-size: 12px;
 	text-align: justify;
+}
+
+hr{
 }
