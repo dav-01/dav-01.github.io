@@ -1,0 +1,23 @@
+*{
+	margin: 0px;
+}
+main{
+	height: 600px;
+	width: 800px;
+	margin-top: 10px;
+	margin: auto;
+	background-color: #143E74;
+	margin-top: 15px;
+	border-radius: 20px;
+}
+
+h1{
+	color: #FF7800;
+	padding-top: 10px;
+	text-align: center;
+}
+
+a{
+	padding-left: 10px;
+	color: #FF7800;
+}
