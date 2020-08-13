@@ -3,10 +3,15 @@
 	padding: 0px;
 }
 
+a{
+	font-size: 25px;
+	font-weight: bold;
+}
+
 #contenedor{
 	height: 780px;
 	margin: auto;
-	margin-top: 20px;
+	margin-top: 10px;
 	width: 800px;
 }
 
