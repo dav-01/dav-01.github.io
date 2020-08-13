@@ -24,19 +24,22 @@ header img{
 }
 
 nav{
+	display: flex;
 	background-color: #1C4A48;
+	color: #E9EDED;
 	height: 50px;
 	width: 800px;
 	margin-bottom: 10px;
 	border-radius: 0px 0px 15px 15px;
 }
 
-#menu{
+.menu{
 	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	font-size: 23px;
 	justify-content: center;
-	padding-top: 6px;
-	font-size: 29px;
-	color: white;
+	font-weight: bold;
 }
 
 section{
